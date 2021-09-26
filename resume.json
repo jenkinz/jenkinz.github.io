@@ -4,7 +4,7 @@
         "label": "Software and DevOps Engineer",
         "image": "",
         "email": "brian@jenkinz.com",
-        "summary": "I am a highly motivated software and devops engineer with 12 years of professional experience, starting in web development and moving into safety-critical aerospace applications. My current role is Principal Software Engineer at Sandel Avionics, where I am primarily responsible for development of Flight Management System (FMS) application software. In addition, I'm responsible for the design and implementation of the navigation database, continuous integration (CI) pipelines, and build tools for all of our applications (both Linux and embedded). Test-driven development (TDD) is employed, and software is developed in accordance with RTCA DO-178C. Testing, internal tools and CI use C++, Python 3, and Git. I enjoy working in a team environment, am a quick and independent learner, and am passionate about mentoring and helping others.",
+        "summary": "I am a highly motivated software and devops engineer with 12 years of professional experience, starting in web development and moving into safety-critical aerospace applications. My current role is Principal Software Engineer at Sandel Avionics, where I am primarily responsible for development of Flight Management System (FMS) application software. In addition, I'm responsible for the design and implementation of the navigation database, CI pipelines, and build tools for all of our applications (both Linux and embedded). Test-driven development is employed, and software is developed in accordance with RTCA DO-178C. Testing, internal tools and CI use C++, Python 3, and Git. I enjoy working in a team environment, am a quick and independent learner, and am passionate about mentoring and helping others.",
         "location": {
             "city": "San Diego",
             "countryCode": "US",
@@ -25,11 +25,11 @@
     },
     "work": [
         {
-            "name": "Sandel Avionics",
+            "company": "Sandel Avionics",
             "position": "Principal Software Engineer",
-            "url": "https://sandel.com",
+            "website": "https://sandel.com",
             "startDate": "October 2019",
-            "endDate": "",
+            "endDate": "Present",
             "summary": "Responsible for FMS application development, including navigation, flight planning, configuration, and interfacing with the display UI components. The embedded Linux-based FMS apps are implemented in C++, deployed on an Intel i7-based SoM, and communicate with a distributed set of STM32 Arm Cortex-based microcontrollers (running ThreadX RTOS C/C++ applications) handling safety-critical sensor and data processing tasks.",
             "highlights": [
                 "Designed and implemented FMS application software handling flight planning, configuration, and display control tasks",
@@ -39,43 +39,54 @@
             ]
         },
         {
-            "name": "Govern For California",
-            "position": "IT and DevOps Consultant",
-            "url": "https://governforcalifornia.org",
+            "company": "Govern For California",
+            "position": "IT and DevOps Consultant (part time)",
+            "website": "https://governforcalifornia.org",
             "startDate": "December 2012",
-            "endDate": ""
+            "endDate": "Present",
+            "summary": "GFC is a non-profit, non-partisan organization seeking to improve California state governance by becoming a counter to special-interest forces that have too much power over state legislators in the capitol today. Our strategy is to think and operate like a business, and as a special interest for the general interest, in order to liberate legislators to govern with common sense, data, and for the benefit of all California citizens, not just special interests.",
+            "highlights": [
+                "Responsible for IT operations (part-time)",
+                "Responsible for financial data gathering and tracking",
+                "Responsible for online donation interfaces and processing"
+            ]
         },
         {
-            "name": "General Atomics Aeronautical Systems",
+            "company": "General Atomics Aeronautical",
             "position": "Software Engineer, System Safety",
-            "url": "https://ga-asi.com",
+            "website": "https://ga-asi.com",
             "startDate": "January 2013",
-            "endDate": "October 2015"
+            "endDate": "October 2015",
+            "summary": "Responsible for software safety assessments on unmanned aircraft platforms to drive system and software safety requirements.",
+            "highlights": [
+                "Successfully lead completion of safety assessments for 4 unique contracts",
+                "Developed an integrated model-based analysis technique for system/software safety"
+            ]
         },
         {
-            "name": "vFlyer",
+            "company": "vFlyer",
             "position": "Software Engineer",
-            "url": "https://vflyer.com",
+            "website": "https://vflyer.com",
             "startDate": "August 2009",
-            "endDate": "June 2012"
+            "endDate": "June 2012",
+            "summary": "Maintained and developed Java-based web applications powering vFlyer's marketing platform and website builder."
         }
     ],
     "education": [
         {
             "institution": "Santa Clara University",
             "area": "Computer Engineering",
-            "studyType": "Bachelor of Science, cum laude",
+            "studyType": "Bachelor of Science (cum laude)",
             "startDate": "September 2005",
             "endDate": "June 2009"
         }
     ],
     "publications": [
         {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "url": "https://publication.com",
-            "summary": "Description…"
+            "name": "An Integrated Model-Based Approach to System Safety and Aircraft System Architecture Development",
+            "releaseDate": "October 2015",
+            "website": "https://researchgate.net/publication/283967318_An_Integrated_Model-Based_Approach_to_System_Safety_and_Aircraft_System_Architecture_Development",
+            "summary": "Industry standards for aircraft development require consideration of system safety objectives during all phases of system architecture development and implementation. However, tools that have enabled systems engineers and software engineers to create high-fidelity models of system architectures currently don't address the concerns of the system safety engineering discipline. A strategy is necessary to ensure that safety objectives are considered during system architecture model development while maintaining the required organizational independence between system safety and the domains with which they interface. This paper details an approach to include a view in an architectural model that addresses system safety objectives."
         }
     ],
     "skills": [
