@@ -17,3 +17,16 @@ default [jsonresume-theme-flat](https://github.com/erming/jsonresume-theme-flat)
 3. Export for GitHub Pages deployment
 
         resume export index.html --format html --theme jsonresume-theme-bjenkins
+
+4. Generate a PDF version
+
+        resume export brianjenkins_resume.pdf --format pdf --theme ./jsonresume-theme-bjenkins/
+
+4. Patch `index.html` to add PDF download link
+
+        <section class="row">
+            <aside class="col-sm-3"></aside>
+            <div class="col-sm-9">
+                <a href="/brianjenkins_resume.pdf">Download PDF</a>
+            </div>
+		</section>
