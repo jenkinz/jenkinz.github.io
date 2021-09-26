@@ -28,14 +28,15 @@
             "company": "Sandel Avionics",
             "position": "Principal Software Engineer",
             "website": "https://sandel.com",
-            "startDate": "October 2019",
+            "startDate": "October 2015",
             "endDate": "Present",
             "summary": "Responsible for FMS application development, including navigation, flight planning, configuration, and interfacing with the display UI components. The embedded Linux-based FMS apps are implemented in C++, deployed on an Intel i7-based SoM, and communicate with a distributed set of STM32 Arm Cortex-based microcontrollers (running ThreadX RTOS C/C++ applications) handling safety-critical sensor and data processing tasks.",
             "highlights": [
-                "Designed and implemented FMS application software handling flight planning, configuration, and display control tasks",
-                "Designed and implemented navigation database (updatable over-the-air every 28 days)",
-                "Leveraged MQTT for telemetry and interprocess communication",
-                "Responsible for test-driven development processes, a flexible build and release system, and CI infrastructure"
+                "Design and implement FMS application software handling flight planning, configuration, and display control tasks",
+                "Design and implement navigation database (updatable over-the-air every 28 days)",
+                "Leverage MQTT for telemetry and interprocess communication",
+                "Responsible for test-driven development processes, a flexible build and release system, and CI infrastructure",
+                "Deploy modern C++ (C++11 or newer) idioms to deeply embedded applications (philosophy: let the compiler catch more errors earlier in the development cycle and free developers to reason about higher-level application problems – the \"what\" - as opposed to \"the how\")"
             ]
         },
         {
@@ -102,6 +103,7 @@
             "name": "DevOps",
             "keywords": [
                 "git",
+                "ci",
                 "cmake",
                 "platformio",
                 "static analysis",
@@ -114,7 +116,9 @@
             "name": "Embedded Development",
             "keywords": [
                 "stm32",
-                "threadx rtos"
+                "threadx rtos",
+                "c",
+                "c++"
             ]
         },
         {

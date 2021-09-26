@@ -29,7 +29,7 @@ default [jsonresume-theme-flat](https://github.com/erming/jsonresume-theme-flat)
             <div class="col-sm-9">
                 <a href="/brianjenkins_resume.pdf">Download PDF</a>
             </div>
-		</section>
+        </section>
 
 Note: if any changes are made to the theme in `./jsonresume-theme-bjenkins`, you
 must reinstall the theme using `npm install ./jsonresume-theme-bjenkins` so the
