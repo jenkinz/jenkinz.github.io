@@ -89,13 +89,27 @@
 					<div class="col-sm-2">
 						{{#network}}
 						<strong class="network">
-							<a href="{{url}}">{{.}}</a>
+							{{.}}
 						</strong>
 						{{/network}}
 						{{#if username}}
 						<div class="username">
-							{{username}}
+							{{#if url}}
+							<div class="url">
+								<span>
+									<a href="{{url}}">{{username}}</a>
+								</span>
+							</div>
+							{{else}}
+								{{username}}
+							{{/if}}
 						</div>
+						{{else}}
+							{{#if url}}
+							<div class="url">
+								<a href="{{url}}">{{url}}</a>
+							</div>
+							{{/if}}
 						{{/if}}
 					</div>
 					{{/profiles}}
