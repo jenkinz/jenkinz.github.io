@@ -170,3 +170,23 @@ h4 span:first-child {
 		display: none;
 	}
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: rgb(24, 26, 27);
+		color: rgb(200, 195, 188);
+	}
+	#header {
+		background-color: rgb(30, 32, 33);
+	}
+	.strike-through span,
+	.strike-through a {
+		background-color: rgb(24, 26, 27);
+	}
+	h4 span:first-child {
+		color: rgb(232, 230, 227);
+	}
+	li:before {
+		opacity: 0.5;
+	}
+}
