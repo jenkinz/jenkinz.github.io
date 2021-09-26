@@ -44,10 +44,9 @@
             "website": "https://governforcalifornia.org",
             "startDate": "December 2012",
             "endDate": "Present",
-            "summary": "GFC is a non-profit, non-partisan organization seeking to improve California state governance by becoming a counter to special-interest forces that have too much power over state legislators in the capitol today. Our strategy is to think and operate like a business and as a \"special interest for the general interest.\" Our goal is to liberate state legislators from special interest influence to govern with a common sense, data-driven approach, and for the benefit of all California citizens.",
+            "summary": "GFC is a non-profit, non-partisan organization seeking to improve California state governance by becoming a counter to a myriad of special interest groups that have too much power over state legislators in the capitol today. Our strategy is to think and operate like a business and as a \"special interest for the general interest.\" Our goal is to liberate state legislators from special interest influence to govern with a common sense, data-driven approach, and for the benefit of all California citizens.",
             "highlights": [
                 "Responsible for IT operations (part-time)",
-                "Responsible for financial data gathering and tracking",
                 "Responsible for online donation interfaces and processing"
             ]
         },
@@ -123,7 +122,10 @@
             "keywords": [
                 "flask",
                 "mysql",
-                "aws"
+                "sqlite",
+                "aws",
+                "elasticbeanstalk",
+                "dynamodb"
             ]
         }
     ]
