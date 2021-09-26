@@ -10,7 +10,7 @@ default [jsonresume-theme-flat](https://github.com/erming/jsonresume-theme-flat)
 
         npm install
 
-2. Serve Locally
+2. Serve locally
 
         resume serve --theme jsonresume-theme-bjenkins
 
@@ -18,7 +18,7 @@ default [jsonresume-theme-flat](https://github.com/erming/jsonresume-theme-flat)
 
         resume export index.html --format html --theme jsonresume-theme-bjenkins
 
-4. Generate a PDF version
+4. Export a PDF version
 
         resume export brianjenkins_resume.pdf --format pdf --theme ./jsonresume-theme-bjenkins/
 
