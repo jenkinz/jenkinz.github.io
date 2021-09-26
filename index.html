@@ -44,7 +44,8 @@
 		}
 
 		section {
-			margin-top: 30px;
+			padding-top: 30px;
+			page-break-inside: avoid;
 		}
 
 		li {
@@ -152,7 +153,7 @@
 
 		@media (min-width: 480px) {
 			.strike-through {
-				border-top: 1px solid #f4f6f6;
+				/* border-top: 1px solid #f4f6f6; */
 				height: 20px;
 				margin-top: 12px;
 				margin-bottom: -2px;
@@ -221,6 +222,10 @@
 				display: none;
 			}
 		}
+	</style>
+
+	<style type="text/css" media="print">
+
 	</style>
 
 </head>
