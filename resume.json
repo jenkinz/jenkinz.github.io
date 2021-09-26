@@ -1,0 +1,119 @@
+{
+    "basics": {
+        "name": "Brian T. Jenkins",
+        "label": "Software and DevOps Engineer",
+        "image": "",
+        "email": "brian@jenkinz.com",
+        "summary": "I am a highly motivated software and devops engineer with 12 years of professional experience, starting in web development and moving into safety-critical aerospace applications. My current role is Principal Software Engineer at Sandel Avionics, where I am primarily responsible for development of Flight Management System (FMS) application software. In addition, I'm responsible for the design and implementation of the navigation database, continuous integration (CI) pipelines, and build tools for all of our applications (both Linux and embedded). Test-driven development (TDD) is employed, and software is developed in accordance with RTCA DO-178C. Testing, internal tools and CI use C++, Python 3, and Git. I enjoy working in a team environment, am a quick and independent learner, and am passionate about mentoring and helping others.",
+        "location": {
+            "city": "San Diego",
+            "countryCode": "US",
+            "region": "California"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "jenkinz",
+                "url": "https://github.com/jenkinz"
+            },
+            {
+                "network": "Twitter",
+                "username": "jenkins_bt",
+                "url": "https://twitter.com/jenkins_bt"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Sandel Avionics",
+            "position": "Principal Software Engineer",
+            "url": "https://sandel.com",
+            "startDate": "October 2019",
+            "endDate": "",
+            "summary": "Responsible for FMS application development, including navigation, flight planning, configuration, and interfacing with the display UI components. The embedded Linux-based FMS apps are implemented in C++, deployed on an Intel i7-based SoM, and communicate with a distributed set of STM32 Arm Cortex-based microcontrollers (running ThreadX RTOS C/C++ applications) handling safety-critical sensor and data processing tasks.",
+            "highlights": [
+                "Designed and implemented FMS application software handling flight planning, configuration, and display control tasks",
+                "Designed and implemented navigation database (updatable over-the-air every 28 days)",
+                "Leveraged MQTT for telemetry and interprocess communication",
+                "Responsible for test-driven development processes, a flexible build and release system, and CI infrastructure"
+            ]
+        },
+        {
+            "name": "Govern For California",
+            "position": "IT and DevOps Consultant",
+            "url": "https://governforcalifornia.org",
+            "startDate": "December 2012",
+            "endDate": ""
+        },
+        {
+            "name": "General Atomics Aeronautical Systems",
+            "position": "Software Engineer, System Safety",
+            "url": "https://ga-asi.com",
+            "startDate": "January 2013",
+            "endDate": "October 2015"
+        },
+        {
+            "name": "vFlyer",
+            "position": "Software Engineer",
+            "url": "https://vflyer.com",
+            "startDate": "August 2009",
+            "endDate": "June 2012"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Santa Clara University",
+            "area": "Computer Engineering",
+            "studyType": "Bachelor of Science, cum laude",
+            "startDate": "September 2005",
+            "endDate": "June 2009"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Linux Application Development",
+            "keywords": [
+                "c",
+                "c++",
+                "python 3",
+                "tdd"
+            ]
+        },
+        {
+            "name": "DevOps",
+            "keywords": [
+                "git",
+                "cmake",
+                "platformio",
+                "static analysis",
+                "code coverage",
+                "doxygen",
+                "docker"
+            ]
+        },
+        {
+            "name": "Embedded Development",
+            "keywords": [
+                "stm32",
+                "threadx rtos"
+            ]
+        },
+        {
+            "name": "Web Development",
+            "keywords": [
+                "flask",
+                "mysql",
+                "aws"
+            ]
+        }
+    ]
+}
