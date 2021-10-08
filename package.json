@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "jsonresume-theme-bjenkins": "file:jsonresume-theme-bjenkins"
+    "jsonresume-theme-bjenkins": "file:jsonresume-theme-bjenkins",
+    "resume": "^0.0.1",
+    "resume-cli": "^3.0.5"
   }
 }
