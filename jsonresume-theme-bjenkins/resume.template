@@ -61,14 +61,14 @@
 					<div class="phone">{{.}}</div>
 				</div>
 				{{/phone}}
-				{{#website}}
+				{{#url}}
 				<div class="col-sm-6">
 					<strong>Website</strong>
 					<div class="website">
 						<a href="{{.}}">{{.}}</a>
 					</div>
 				</div>
-				{{/website}}
+				{{/url}}
 				</div>
 			</div>
 		</section>

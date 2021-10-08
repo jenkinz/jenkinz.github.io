@@ -4,6 +4,7 @@
         "label": "Software and DevOps Engineer",
         "image": "",
         "email": "shellac-06hops@icloud.com",
+        "url": "https://jenkinz.github.io",
         "summary": "I am a highly motivated software and devops engineer with 12 years of professional experience, starting in web development and moving into safety-critical aerospace applications. My current role is Principal Software Engineer at Sandel Avionics, where I am primarily responsible for development of Flight Management System (FMS) application software. In addition, I'm responsible for the design and implementation of the navigation database, CI pipelines, and build tools for all of our applications (both Linux and embedded). Test-driven development is employed, and software is developed in accordance with RTCA DO-178C. Testing, internal tools and CI use C++, Python 3, and Git. I enjoy working in a team environment, am a quick and independent learner, and am passionate about mentoring and helping others.",
         "location": {
             "city": "San Diego",
