@@ -86,7 +86,7 @@
 			<div class="col-sm-9">
 				<div class="row">
 					{{#profiles}}
-					<div class="col-sm-2">
+					<div class="col-sm-6">
 						{{#network}}
 						<strong class="network">
 							{{.}}
