@@ -26,6 +26,21 @@
     },
     "work": [
         {
+            "company": "Sandel Avionics",
+            "position": "Principal Software Engineer",
+            "website": "https://sandel.com",
+            "startDate": "October 2015",
+            "endDate": "Present",
+            "summary": "Responsible for FMS application development including flight planning, navigation, configuration, and interfacing with the display UI components. The embedded Linux-based FMS apps are implemented in C++, deployed on an Intel i7-based SoM, and communicate with a distributed set of STM32 Arm Cortex-based microcontrollers (running ThreadX RTOS) handling safety-critical sensor and data processing tasks. MQTT is leveraged for telemetry and IPC.",
+            "highlights": [
+                "Design and implement FMS application software handling flight planning, navigation, configuration, and system control tasks",
+                "Design and implement navigation database (updatable over-the-air every 28 days)",
+                "Responsible for automated test-driven development processes, including build and release system and CI infrastructure",
+                "Document software APIs, development processes and procedures",
+                "Participate in flight tests as an on-board flight test engineer"
+            ]
+        },
+        {
             "company": "Govern For California",
             "position": "CIO/CTO",
             "website": "https://governforcalifornia.org",
@@ -34,21 +49,6 @@
             "summary": "GFC is a non-profit, non-partisan organization seeking to improve California state governance by becoming a counter to a myriad of special interest groups that have too much power over state legislators in the capitol today. GFC's strategy is to think and operate like a business and as a \"special interest for the general interest.\" GFC's goal is to liberate state legislators from special interest influence to govern with a common sense, data-driven approach, and for the benefit of all California citizens.",
             "highlights": [
                 "Responsible for IT operations, CRM, and technical projects"
-            ]
-        },
-        {
-            "company": "Sandel Avionics",
-            "position": "Principal Software Engineer",
-            "website": "https://sandel.com",
-            "startDate": "October 2015",
-            "endDate": "December 2021",
-            "summary": "Responsible for FMS application development including flight planning, navigation, configuration, and interfacing with the display UI components. The embedded Linux-based FMS apps are implemented in C++, deployed on an Intel i7-based SoM, and communicate with a distributed set of STM32 Arm Cortex-based microcontrollers (running ThreadX RTOS) handling safety-critical sensor and data processing tasks. MQTT is leveraged for telemetry and IPC.",
-            "highlights": [
-                "Design and implement FMS application software handling flight planning, navigation, configuration, and system control tasks",
-                "Design and implement navigation database (updatable over-the-air every 28 days)",
-                "Responsible for automated test-driven development processes, including build and release system and CI infrastructure",
-                "Document software APIs, development processes and procedures",
-                "Participate in flight tests as an on-board flight test engineer"
             ]
         },
         {
