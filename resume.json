@@ -30,7 +30,7 @@
             "position": "Principal Software Engineer",
             "website": "https://sandel.com",
             "startDate": "October 2015",
-            "endDate": "Present",
+            "endDate": "December 2021",
             "summary": "Responsible for FMS application development including flight planning, navigation, configuration, and interfacing with the display UI components. The embedded Linux-based FMS apps are implemented in C++, deployed on an Intel i7-based SoM, and communicate with a distributed set of STM32 Arm Cortex-based microcontrollers (running ThreadX RTOS) handling safety-critical sensor and data processing tasks. MQTT is leveraged for telemetry and IPC.",
             "highlights": [
                 "Design and implement FMS application software handling flight planning, navigation, configuration, and system control tasks",
