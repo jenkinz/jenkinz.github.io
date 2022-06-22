@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
-
-<head>
+	<head>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
@@ -12,249 +11,207 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 
 	<style type="text/css">
-		body {
-			background: #fff;
-			font-family: Helvetica, sans-serif;
-			margin: 0 0 80px;
-		}
+	body {
+	background: #fff;
+	font-family: Helvetica, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #4291ca;
+}
+a:focus,
+a:hover {
+	text-decoration: underline;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	padding-top: 30px;
+	page-break-inside: avoid;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #95a5a6;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content section h3 {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
 
-		a {
-			color: #4291ca;
-		}
+@media (min-width: 480px) {
+	.strike-through {
+		/* border-top: 1px solid #f4f6f6; */
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content section h3 {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
 
-		a:focus,
-		a:hover {
-			text-decoration: underline;
-		}
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: rgb(24, 26, 27);
+		color: rgb(200, 195, 188);
+	}
+	#header {
+		background-color: rgb(30, 32, 33);
+	}
+	.strike-through span,
+	.strike-through a {
+		background-color: rgb(24, 26, 27);
+	}
+	h4 span:first-child {
+		color: rgb(232, 230, 227);
+	}
+	li:before {
+		opacity: 0.5;
+	}
+}
 
-		p {
-			line-height: 1.5;
-			margin: 0;
-		}
-
-		p+p {
-			margin-top: 10px;
-		}
-
-		h1,
-		h2,
-		h3,
-		h4 {
-			margin-top: 0
-		}
-
-		section {
-			padding-top: 30px;
-			page-break-inside: avoid;
-		}
-
-		li {
-			line-height: 1.8;
-			list-style: none;
-		}
-
-		li:before {
-			content: "\f052";
-			float: left;
-			font: 13px Octicons;
-			margin-top: 6px;
-			margin-left: -20px;
-			opacity: .1;
-			position: absolute;
-		}
-
-		blockquote {
-			border-left: 5px solid #e7e9ec;
-			font-size: 14px;
-		}
-
-		em {
-			color: #95a5a6;
-			font-weight: normal;
-			font-style: normal;
-		}
-
-		h4 span:first-child {
-			color: #000;
-			font-weight: bold;
-		}
-
-		.container {
-			max-width: 750px;
-			padding: 0 30px;
-		}
-
-		.col-sm-6 {
-			margin-bottom: 10px;
-		}
-
-		.col-sm-12 h4 {
-			margin-top: 12px;
-		}
-
-		.col-sm-12+.col-sm-12 {
-			margin-top: 30px;
-		}
-
-		#header {
-			background: #f4f6f6;
-			padding: 50px 0;
-			margin-bottom: 30px;
-		}
-
-		#header h2 {
-			color: #95a5a6;
-			font-size: 24px;
-		}
-
-		#content h3 {
-			color: #95a5a6;
-			font-size: 26px;
-			margin-top: -4px;
-		}
-
-		#content section h3 {
-			text-align: right;
-			padding-right: 30px;
-		}
-
-		#profiles .network {
-			text-transform: capitalize;
-		}
-
-		#work .position,
-		#volunteer .position {
-			font-weight: bold;
-			margin-bottom: 8px;
-		}
-
-		#education .area {
-			font-weight: bold;
-		}
-
-		#education .area:before {
-			content: "\f0d7";
-			font: 16px Octicons;
-			margin-right: 6px;
-		}
-
-		#education .studyType {
-			margin-left: 25px;
-		}
-
-		#awards .summary,
-		#publications .summary {
-			margin-top: 8px;
-		}
-
-		#publications .website a:before {
-			content: attr(href);
-		}
-
-		@media (min-width: 480px) {
-			.strike-through {
-				/* border-top: 1px solid #f4f6f6; */
-				height: 20px;
-				margin-top: 12px;
-				margin-bottom: -2px;
-				position: relative;
-			}
-
-			.strike-through span,
-			.strike-through a {
-				background: #fff;
-				position: absolute;
-			}
-
-			.strike-through span:first-child {
-				padding-right: 20px;
-				margin-top: -12px;
-			}
-
-			.strike-through span+span {
-				font-size: 14px;
-				margin-top: -10px;
-				padding-left: 20px;
-				right: 0;
-			}
-		}
-
-		@media (max-width: 768px) {
-			.col-sm-6:last-child {
-				margin-bottom: 0px;
-			}
-
-			#content section h3 {
-				margin-bottom: 20px;
-				padding-right: 0;
-				text-align: left;
-			}
-
-			#publications .website a:before {
-				content: "View publication";
-			}
-		}
-
-		@media (max-width: 480px) {
-			h1 {
-				font-size: 26px;
-			}
-
-			.date {
-				font-size: 14px;
-				margin-bottom: 5px;
-			}
-
-			.strike-through span:first-child {
-				margin-bottom: 7px;
-			}
-
-			.strike-through span {
-				display: block;
-			}
-
-			#header {
-				margin-bottom: 10px;
-				padding: 40px 0;
-			}
-
-			#actions {
-				display: none;
-			}
-		}
-
-		@media (prefers-color-scheme: dark) {
-			body {
-				background-color: rgb(24, 26, 27);
-				color: rgb(200, 195, 188);
-			}
-
-			#header {
-				background-color: rgb(30, 32, 33);
-			}
-
-			.strike-through span,
-			.strike-through a {
-				background-color: rgb(24, 26, 27);
-			}
-
-			h4 span:first-child {
-				color: rgb(232, 230, 227);
-			}
-
-			li:before {
-				opacity: 0.5;
-			}
-		}
 	</style>
 
 	<style type="text/css" media="print">
-
+	
 	</style>
 
-</head>
-
-<body>
+	</head>
+	<body>
 
 	<header id="header">
 		<div class="container">
@@ -273,38 +230,27 @@
 
 	<main id="content" class="container">
 
-		<section class="row">
-			<aside class="col-sm-3"></aside>
-			<div class="col-sm-9">
-				<a href="/brianjenkins_resume.pdf">Download PDF</a>
-			</div>
-		</section>
-
 		<section id="contact" class="row">
 			<h3 class="col-sm-3">Contact</h3>
 			<div class="col-sm-9">
 				<div class="row">
-					<div class="col-sm-6">
-						<strong>Email</strong>
-						<div class="email"><a
-								href="mailto:phenols09_bugaboo@icloud.com">phenols09_bugaboo@icloud.com</a></div>
+				<div class="col-sm-6">
+					<strong>Email</strong>
+					<div class="email"><a href="https://linkedin.com/in/jenkinz">Please contact me via LinkedIn</a></div>
+				</div>
+				<div class="col-sm-6">
+					<strong>Website</strong>
+					<div class="website">
+						<a href="https://jenkinz.github.io">https://jenkinz.github.io</a>
 					</div>
-					<div class="col-sm-6">
-						<strong>Website</strong>
-						<div class="website">
-							<a href="https://jenkinz.github.io">https://jenkinz.github.io</a>
-						</div>
-					</div>
+				</div>
 				</div>
 			</div>
 		</section>
 		<section id="about" class="row">
 			<h3 class="col-sm-3">About</h3>
 			<div class="col-sm-9">
-				<p>I am a highly motivated software and devops engineer with 13 years of professional experience,
-					ranging from web development to safety-critical aerospace applications. I enjoy working in a team
-					environment, am a quick and independent learner, and am passionate about mentoring and helping
-					others.</p>
+				<p>I am a highly motivated software and devops engineer with 13 years of professional experience, ranging from web development to safety-critical aerospace applications. I enjoy working in a team environment, am a quick and independent learner, and am passionate about mentoring and helping others.</p>
 			</div>
 		</section>
 		<section id="profiles" class="row">
@@ -343,110 +289,92 @@
 			<h3 class="col-sm-3">Work</h3>
 			<div class="col-sm-9">
 				<div class="row">
-					<div class="col-sm-12">
-						<h4 class="strike-through">
-							<span>Govern For California</span>
-							<span class="date">
-								December 2012 — Present
-							</span>
-						</h4>
-						<div class="website pull-right">
-							<a href="https://governforcalifornia.org">https://governforcalifornia.org</a>
-						</div>
-						<div class="position">
-							CIO
-						</div>
-						<div class="summary">
-							<p>GFC is a non-profit, non-partisan organization seeking to improve California state
-								governance by becoming a counter to a myriad of special interest groups that have too
-								much power over state legislators in the capitol today. GFC&#x27;s strategy is to think
-								and operate like a business and as a &quot;special interest for the general
-								interest.&quot; GFC&#x27;s mission is to empower state legislators to govern with a
-								common sense, data-driven approach, and for the benefit of all California citizens.</p>
-						</div>
-						<h4>Highlights</h4>
-						<ul class="highlights">
-							<li class="bullet">Responsible for IT operations, CRM/databases, and technical projects</li>
-						</ul>
+				<div class="col-sm-12">
+					<h4 class="strike-through">
+						<span>Govern For California</span>
+						<span class="date">
+							December 2012 — 
+						</span>
+					</h4>
+					<div class="website pull-right">
+						<a href="https://governforcalifornia.org">https://governforcalifornia.org</a>
 					</div>
-					<div class="col-sm-12">
-						<h4 class="strike-through">
-							<span>Sandel Avionics</span>
-							<span class="date">
-								October 2015 — December 2021
-							</span>
-						</h4>
-						<div class="website pull-right">
-							<a href="https://sandel.com">https://sandel.com</a>
-						</div>
-						<div class="position">
-							Principal Software Engineer
-						</div>
-						<div class="summary">
-							<p>Responsible for FMS application development including flight planning, navigation,
-								configuration, and interfacing with the display UI components. The embedded Linux-based
-								FMS apps are implemented in C++, deployed on an Intel i7-based SoM, and communicate with
-								a distributed set of STM32 Arm Cortex-based microcontrollers (running ThreadX RTOS)
-								handling safety-critical sensor and data processing tasks. MQTT is leveraged for
-								telemetry and IPC.</p>
-						</div>
-						<h4>Highlights</h4>
-						<ul class="highlights">
-							<li class="bullet">Design and implement FMS application software handling flight planning,
-								navigation, configuration, and system control tasks</li>
-							<li class="bullet">Design and implement navigation database (updatable over-the-air every 28
-								days)</li>
-							<li class="bullet">Responsible for automated test-driven development processes, including
-								build and release system and CI infrastructure</li>
-							<li class="bullet">Document software APIs, development processes and procedures</li>
-							<li class="bullet">Participate in flight tests as an on-board flight test engineer</li>
-						</ul>
+					<div class="position">
+						CIO
 					</div>
-					<div class="col-sm-12">
-						<h4 class="strike-through">
-							<span>General Atomics Aeronautical</span>
-							<span class="date">
-								January 2013 — October 2015
-							</span>
-						</h4>
-						<div class="website pull-right">
-							<a href="https://ga-asi.com">https://ga-asi.com</a>
-						</div>
-						<div class="position">
-							Software Engineer, System Safety
-						</div>
-						<div class="summary">
-							<p>Responsible for software safety assessments on unmanned aircraft platforms to drive
-								system and software safety requirements.</p>
-						</div>
-						<h4>Highlights</h4>
-						<ul class="highlights">
-							<li class="bullet">Lead completion of safety assessments for new UAV and ground station
-								variants</li>
-							<li class="bullet">Developed an integrated model-based analysis technique for
-								system/software safety analysis</li>
-							<li class="bullet">Interfaced directly with and presented to US government customers
-								including the USAF and Army</li>
-						</ul>
+					<div class="summary">
+						<p>GFC is a non-profit, non-partisan organization seeking to improve California state governance by becoming a counter to a myriad of special interest groups that have too much power over state legislators in the capitol today. GFC&#x27;s strategy is to think and operate like a business and as a &quot;special interest for the general interest.&quot; GFC&#x27;s mission is to empower state legislators to govern with a common sense, data-driven approach, and for the benefit of all California citizens.</p>
 					</div>
-					<div class="col-sm-12">
-						<h4 class="strike-through">
-							<span>vFlyer</span>
-							<span class="date">
-								August 2009 — June 2012
-							</span>
-						</h4>
-						<div class="website pull-right">
-							<a href="https://vflyer.com">https://vflyer.com</a>
-						</div>
-						<div class="position">
-							Software Engineer
-						</div>
-						<div class="summary">
-							<p>Developed Java-based web applications powering vFlyer&#x27;s marketing platform and
-								website builder.</p>
-						</div>
+					<h4>Highlights</h4>
+					<ul class="highlights">
+						<li class="bullet">Responsible for IT operations, CRM/databases, and technical projects</li>
+					</ul>
+				</div>
+				<div class="col-sm-12">
+					<h4 class="strike-through">
+						<span>Sandel Avionics</span>
+						<span class="date">
+							October 2015 — December 2021
+						</span>
+					</h4>
+					<div class="website pull-right">
+						<a href="https://sandel.com">https://sandel.com</a>
 					</div>
+					<div class="position">
+						Principal Software Engineer
+					</div>
+					<div class="summary">
+						<p>Responsible for FMS application development including flight planning, navigation, configuration, and interfacing with the display UI components. The embedded Linux-based FMS apps are implemented in C++, deployed on an Intel i7-based SoM, and communicate with a distributed set of STM32 Arm Cortex-based microcontrollers (running ThreadX RTOS) handling safety-critical sensor and data processing tasks. MQTT is leveraged for telemetry and IPC.</p>
+					</div>
+					<h4>Highlights</h4>
+					<ul class="highlights">
+						<li class="bullet">Design and implement FMS application software handling flight planning, navigation, configuration, and system control tasks</li>
+						<li class="bullet">Design and implement navigation database (updatable over-the-air every 28 days)</li>
+						<li class="bullet">Responsible for automated test-driven development processes, including build and release system and CI infrastructure</li>
+						<li class="bullet">Document software APIs, development processes and procedures</li>
+						<li class="bullet">Participate in flight tests as an on-board flight test engineer</li>
+					</ul>
+				</div>
+				<div class="col-sm-12">
+					<h4 class="strike-through">
+						<span>General Atomics Aeronautical</span>
+						<span class="date">
+							January 2013 — October 2015
+						</span>
+					</h4>
+					<div class="website pull-right">
+						<a href="https://ga-asi.com">https://ga-asi.com</a>
+					</div>
+					<div class="position">
+						Software Engineer, System Safety
+					</div>
+					<div class="summary">
+						<p>Responsible for software safety assessments on unmanned aircraft platforms to drive system and software safety requirements.</p>
+					</div>
+					<h4>Highlights</h4>
+					<ul class="highlights">
+						<li class="bullet">Lead completion of safety assessments for new UAV and ground station variants</li>
+						<li class="bullet">Developed an integrated model-based analysis technique for system/software safety analysis</li>
+						<li class="bullet">Interfaced directly with and presented to US government customers including the USAF and Army</li>
+					</ul>
+				</div>
+				<div class="col-sm-12">
+					<h4 class="strike-through">
+						<span>vFlyer</span>
+						<span class="date">
+							August 2009 — June 2012
+						</span>
+					</h4>
+					<div class="website pull-right">
+						<a href="https://vflyer.com">https://vflyer.com</a>
+					</div>
+					<div class="position">
+						Software Engineer
+					</div>
+					<div class="summary">
+						<p>Developed Java-based web applications powering vFlyer&#x27;s marketing platform and website builder.</p>
+					</div>
+				</div>
 				</div>
 			</div>
 		</section>
@@ -456,20 +384,20 @@
 			<h3 class="col-sm-3">Education</h3>
 			<div class="col-sm-9">
 				<div class="row">
-					<div class="col-sm-12">
-						<h4 class="strike-through">
-							<span>Santa Clara University</span>
-							<span class="date">
-								September 2005 — June 2009
-							</span>
-						</h4>
-						<div class="area">
-							Computer Engineering
-						</div>
-						<div class="studyType">
-							Bachelor of Science (cum laude)
-						</div>
+				<div class="col-sm-12">
+					<h4 class="strike-through">
+						<span>Santa Clara University</span>
+						<span class="date">
+							September 2005 — June 2009
+						</span>
+					</h4>
+					<div class="area">
+						Computer Engineering
 					</div>
+					<div class="studyType">
+						Bachelor of Science (cum laude)
+					</div>
+				</div>
 				</div>
 			</div>
 		</section>
@@ -479,28 +407,17 @@
 			<h3 class="col-sm-3">Publications</h3>
 			<div class="col-sm-9">
 				<div class="row">
-					<div class="col-sm-12">
-						<h4 class="strike-through">
-							<span>An Integrated Model-Based Approach to System Safety and Aircraft System Architecture
-								Development</span>
-						</h4>
-						<div class="date" style="margin-top:12px;">
-							<a
-								href="https://researchgate.net/publication/283967318_An_Integrated_Model-Based_Approach_to_System_Safety_and_Aircraft_System_Architecture_Development">October
-								2015</a>
-						</div>
-						<div class="summary">
-							<p>Industry standards for aircraft development require consideration of system safety
-								objectives during all phases of system architecture development and implementation.
-								However, tools that have enabled systems engineers and software engineers to create
-								high-fidelity models of system architectures currently don&#x27;t address the concerns
-								of the system safety engineering discipline. A strategy is necessary to ensure that
-								safety objectives are considered during system architecture model development while
-								maintaining the required organizational independence between system safety and the
-								domains with which they interface. This paper details an approach to include a view in
-								an architectural model that addresses system safety objectives.</p>
-						</div>
+				<div class="col-sm-12">
+					<h4 class="strike-through">
+						<span>An Integrated Model-Based Approach to System Safety and Aircraft System Architecture Development</span>
+					</h4>
+					<div class="date" style="margin-top:12px;">
+						<a href="https://researchgate.net/publication/283967318_An_Integrated_Model-Based_Approach_to_System_Safety_and_Aircraft_System_Architecture_Development">October 2015</a>
 					</div>
+					<div class="summary">
+						<p>Industry standards for aircraft development require consideration of system safety objectives during all phases of system architecture development and implementation. However, tools that have enabled systems engineers and software engineers to create high-fidelity models of system architectures currently don&#x27;t address the concerns of the system safety engineering discipline. A strategy is necessary to ensure that safety objectives are considered during system architecture model development while maintaining the required organizational independence between system safety and the domains with which they interface. This paper details an approach to include a view in an architectural model that addresses system safety objectives.</p>
+					</div>
+				</div>
 				</div>
 			</div>
 		</section>
@@ -509,56 +426,56 @@
 			<h3 class="col-sm-3">Skills</h3>
 			<div class="col-sm-9">
 				<div class="row">
-					<div class="col-sm-6">
-						<div class="name">
-							<h4>Linux Application Development</h4>
-						</div>
-						<ul class="keywords">
-							<li>c</li>
-							<li>c++</li>
-							<li>python 3</li>
-							<li>tdd</li>
-						</ul>
+				<div class="col-sm-6">
+					<div class="name">
+						<h4>Linux Application Development</h4>
 					</div>
-					<div class="col-sm-6">
-						<div class="name">
-							<h4>DevOps</h4>
-						</div>
-						<ul class="keywords">
-							<li>git</li>
-							<li>ci</li>
-							<li>cmake</li>
-							<li>platformio</li>
-							<li>static analysis</li>
-							<li>code coverage</li>
-							<li>doxygen</li>
-							<li>docker</li>
-						</ul>
+					<ul class="keywords">
+						<li>c</li>
+						<li>c++</li>
+						<li>python 3</li>
+						<li>tdd</li>
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<div class="name">
+						<h4>DevOps</h4>
 					</div>
-					<div class="col-sm-6">
-						<div class="name">
-							<h4>Embedded Development</h4>
-						</div>
-						<ul class="keywords">
-							<li>stm32</li>
-							<li>threadx rtos</li>
-							<li>c</li>
-							<li>c++</li>
-						</ul>
+					<ul class="keywords">
+						<li>git</li>
+						<li>ci</li>
+						<li>cmake</li>
+						<li>platformio</li>
+						<li>static analysis</li>
+						<li>code coverage</li>
+						<li>doxygen</li>
+						<li>docker</li>
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<div class="name">
+						<h4>Embedded Development</h4>
 					</div>
-					<div class="col-sm-6">
-						<div class="name">
-							<h4>Web Development</h4>
-						</div>
-						<ul class="keywords">
-							<li>flask</li>
-							<li>mysql</li>
-							<li>sqlite</li>
-							<li>aws</li>
-							<li>elasticbeanstalk</li>
-							<li>dynamodb</li>
-						</ul>
+					<ul class="keywords">
+						<li>stm32</li>
+						<li>threadx rtos</li>
+						<li>c</li>
+						<li>c++</li>
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<div class="name">
+						<h4>Web Development</h4>
 					</div>
+					<ul class="keywords">
+						<li>flask</li>
+						<li>mysql</li>
+						<li>sqlite</li>
+						<li>aws</li>
+						<li>elasticbeanstalk</li>
+						<li>dynamodb</li>
+					</ul>
+				</div>
 				</div>
 			</div>
 		</section>
@@ -568,6 +485,5 @@
 
 	</main>
 
-</body>
-
+	</body>
 </html>

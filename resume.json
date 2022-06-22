@@ -3,7 +3,7 @@
         "name": "Brian T. Jenkins",
         "label": "Software and DevOps Engineer",
         "image": "",
-        "email": "phenols09_bugaboo@icloud.com",
+        "email": "https://linkedin.com/in/jenkinz",
         "url": "https://jenkinz.github.io",
         "summary": "I am a highly motivated software and devops engineer with 13 years of professional experience, ranging from web development to safety-critical aerospace applications. I enjoy working in a team environment, am a quick and independent learner, and am passionate about mentoring and helping others.",
         "location": {
@@ -30,7 +30,7 @@
             "position": "CIO",
             "website": "https://governforcalifornia.org",
             "startDate": "December 2012",
-            "endDate": "Present",
+            "endDate": "",
             "summary": "GFC is a non-profit, non-partisan organization seeking to improve California state governance by becoming a counter to a myriad of special interest groups that have too much power over state legislators in the capitol today. GFC's strategy is to think and operate like a business and as a \"special interest for the general interest.\" GFC's mission is to empower state legislators to govern with a common sense, data-driven approach, and for the benefit of all California citizens.",
             "highlights": [
                 "Responsible for IT operations, CRM/databases, and technical projects"
