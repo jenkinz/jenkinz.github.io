@@ -42,7 +42,8 @@
                 "Design and implement navigation database (updatable over-the-air every 28 days)",
                 "Responsible for automated test-driven development processes, including build and release system and CI infrastructure",
                 "Document software APIs, development processes and procedures",
-                "Participate in flight tests as an on-board flight test engineer"
+                "Participate in flight tests as an on-board flight test engineer",
+                "Prepare and author certification documentation in accordance with DO-178C"
             ]
         },
         {
