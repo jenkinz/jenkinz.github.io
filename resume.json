@@ -109,14 +109,7 @@
     },
     {
       "name": "Web Development",
-      "keywords": [
-        "flask",
-        "mysql",
-        "sqlite",
-        "aws",
-        "elasticbeanstalk",
-        "dynamodb"
-      ]
+      "keywords": ["next.js/vercel", "python/flask", "mysql", "aws"]
     }
   ]
 }
