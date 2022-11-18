@@ -1,132 +1,122 @@
 {
-    "basics": {
-        "name": "Brian T. Jenkins",
-        "label": "Software and DevOps Engineer",
-        "image": "",
-        "email": "https://linkedin.com/in/jenkinz",
-        "url": "https://jenkinz.github.io",
-        "summary": "I am a highly motivated software and devops engineer with 14 years of professional experience, ranging from web development to safety-critical aerospace applications. I enjoy working in a team environment, am a quick and independent learner, and am passionate about mentoring and helping others.",
-        "location": {
-            "city": "San Diego",
-            "countryCode": "US",
-            "region": "California"
-        },
-        "profiles": [
-            {
-                "network": "GitHub",
-                "username": "jenkinz",
-                "url": "https://github.com/jenkinz"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "jenkinz",
-                "url": "https://linkedin.com/in/jenkinz"
-            }
-        ]
+  "basics": {
+    "name": "Brian T. Jenkins",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "https://linkedin.com/in/jenkinz",
+    "url": "https://jenkinz.github.io",
+    "summary": "I am a highly motivated software and devops engineer with 14 years of professional experience, ranging from web development to safety-critical aerospace applications. I enjoy working in a team environment, am a quick and independent learner, and am passionate about mentoring and helping others.",
+    "location": {
+      "city": "San Diego",
+      "countryCode": "US",
+      "region": "California"
     },
-    "work": [
-        {
-            "company": "Freelance Software Engineer",
-            "startDate": "January 2022",
-            "endDate": ""
-        },
-        {
-            "company": "Sandel Avionics",
-            "position": "Principal Software Engineer",
-            "website": "https://sandel.com",
-            "startDate": "October 2015",
-            "endDate": "December 2021",
-            "summary": "Responsible for FMS application development including flight planning, navigation, configuration, and interfacing with the display UI components. The embedded Linux-based FMS apps are implemented in C++, deployed on an Intel i7-based SoM, and communicate with a distributed set of STM32 Arm Cortex-based microcontrollers (running ThreadX RTOS) handling safety-critical sensor and data processing tasks. MQTT is leveraged for telemetry and IPC.",
-            "highlights": [
-                "Design and implement FMS application software handling flight planning, navigation, configuration, and system control tasks",
-                "Design and implement navigation database (updatable over-the-air every 28 days)",
-                "Responsible for automated test-driven development processes, including build and release system and CI infrastructure",
-                "Document software APIs, development processes and procedures",
-                "Participate in flight tests as an on-board flight test engineer",
-                "Prepare and author certification documentation in accordance with DO-178C"
-            ]
-        },
-        {
-            "company": "General Atomics Aeronautical",
-            "position": "Software Engineer, System Safety",
-            "website": "https://ga-asi.com",
-            "startDate": "January 2013",
-            "endDate": "October 2015",
-            "summary": "Responsible for software safety assessments on unmanned aircraft platforms to drive system and software safety requirements.",
-            "highlights": [
-                "Lead completion of safety assessments for new UAV and ground station variants",
-                "Developed an integrated model-based analysis technique for system/software safety analysis",
-                "Interfaced directly with and presented to US government customers including the USAF and Army"
-            ]
-        },
-        {
-            "company": "vFlyer",
-            "position": "Software Engineer",
-            "website": "https://vflyer.com",
-            "startDate": "August 2009",
-            "endDate": "June 2012",
-            "summary": "Developed Java-based web applications powering vFlyer's marketing platform and website builder."
-        }
-    ],
-    "education": [
-        {
-            "institution": "Santa Clara University",
-            "area": "Computer Engineering",
-            "studyType": "Bachelor of Science (cum laude)",
-            "startDate": "September 2005",
-            "endDate": "June 2009"
-        }
-    ],
-    "publications": [
-        {
-            "name": "An Integrated Model-Based Approach to System Safety and Aircraft System Architecture Development",
-            "releaseDate": "October 2015",
-            "website": "https://researchgate.net/publication/283967318_An_Integrated_Model-Based_Approach_to_System_Safety_and_Aircraft_System_Architecture_Development",
-            "summary": "Industry standards for aircraft development require consideration of system safety objectives during all phases of system architecture development and implementation. However, tools that have enabled systems engineers and software engineers to create high-fidelity models of system architectures currently don't address the concerns of the system safety engineering discipline. A strategy is necessary to ensure that safety objectives are considered during system architecture model development while maintaining the required organizational independence between system safety and the domains with which they interface. This paper details an approach to include a view in an architectural model that addresses system safety objectives."
-        }
-    ],
-    "skills": [
-        {
-            "name": "Linux Application Development",
-            "keywords": [
-                "c",
-                "c++",
-                "python 3",
-                "tdd"
-            ]
-        },
-        {
-            "name": "DevOps",
-            "keywords": [
-                "git",
-                "ci",
-                "cmake",
-                "platformio",
-                "static analysis",
-                "code coverage",
-                "doxygen",
-                "docker"
-            ]
-        },
-        {
-            "name": "Embedded Development",
-            "keywords": [
-                "stm32",
-                "threadx rtos",
-                "c",
-                "c++"
-            ]
-        },
-        {
-            "name": "Web Development",
-            "keywords": [
-                "flask",
-                "mysql",
-                "sqlite",
-                "aws",
-                "elasticbeanstalk",
-                "dynamodb"
-            ]
-        }
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "jenkinz",
+        "url": "https://github.com/jenkinz"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jenkinz",
+        "url": "https://linkedin.com/in/jenkinz"
+      }
     ]
+  },
+  "work": [
+    {
+      "company": "Freelance Software Engineer",
+      "startDate": "January 2022",
+      "endDate": ""
+    },
+    {
+      "company": "Sandel Avionics",
+      "position": "Principal Software Engineer",
+      "website": "https://sandel.com",
+      "startDate": "October 2015",
+      "endDate": "December 2021",
+      "summary": "Responsible for FMS application development including flight planning, navigation, configuration, and interfacing with the display UI components. The embedded Linux-based FMS apps are implemented in C++, deployed on an Intel i7-based SoM, and communicate with a distributed set of STM32 Arm Cortex-based microcontrollers (running ThreadX RTOS) handling safety-critical sensor and data processing tasks. MQTT is leveraged for telemetry and IPC.",
+      "highlights": [
+        "Design and implement FMS application software handling flight planning, navigation, configuration, and system control tasks",
+        "Design and implement navigation database (updatable over-the-air every 28 days)",
+        "Responsible for automated test-driven development processes, including build and release system and CI infrastructure",
+        "Document software APIs, development processes and procedures",
+        "Participate in flight tests as an on-board flight test engineer",
+        "Prepare and author certification documentation in accordance with DO-178C"
+      ]
+    },
+    {
+      "company": "General Atomics Aeronautical",
+      "position": "Software Engineer, System Safety",
+      "website": "https://ga-asi.com",
+      "startDate": "January 2013",
+      "endDate": "October 2015",
+      "summary": "Responsible for software safety assessments on unmanned aircraft platforms to drive system and software safety requirements.",
+      "highlights": [
+        "Lead completion of safety assessments for new UAV and ground station variants",
+        "Developed an integrated model-based analysis technique for system/software safety analysis",
+        "Interfaced directly with and presented to US government customers including the USAF and Army"
+      ]
+    },
+    {
+      "company": "vFlyer",
+      "position": "Software Engineer",
+      "website": "https://vflyer.com",
+      "startDate": "August 2009",
+      "endDate": "June 2012",
+      "summary": "Developed Java-based web applications powering vFlyer's marketing platform and website builder."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Santa Clara University",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Science (cum laude)",
+      "startDate": "September 2005",
+      "endDate": "June 2009"
+    }
+  ],
+  "publications": [
+    {
+      "name": "An Integrated Model-Based Approach to System Safety and Aircraft System Architecture Development",
+      "releaseDate": "October 2015",
+      "website": "https://researchgate.net/publication/283967318_An_Integrated_Model-Based_Approach_to_System_Safety_and_Aircraft_System_Architecture_Development",
+      "summary": "Industry standards for aircraft development require consideration of system safety objectives during all phases of system architecture development and implementation. However, tools that have enabled systems engineers and software engineers to create high-fidelity models of system architectures currently don't address the concerns of the system safety engineering discipline. A strategy is necessary to ensure that safety objectives are considered during system architecture model development while maintaining the required organizational independence between system safety and the domains with which they interface. This paper details an approach to include a view in an architectural model that addresses system safety objectives."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Linux Application Development",
+      "keywords": ["c", "c++", "python 3", "tdd"]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "git",
+        "ci",
+        "cmake",
+        "platformio",
+        "static analysis",
+        "code coverage",
+        "doxygen",
+        "docker"
+      ]
+    },
+    {
+      "name": "Embedded Development",
+      "keywords": ["stm32", "threadx rtos", "c", "c++"]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "flask",
+        "mysql",
+        "sqlite",
+        "aws",
+        "elasticbeanstalk",
+        "dynamodb"
+      ]
+    }
+  ]
 }
