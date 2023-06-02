@@ -3,7 +3,7 @@
     "name": "Brian T. Jenkins",
     "label": "Software Engineer",
     "image": "",
-    "email": "https://linkedin.com/in/jenkinz",
+    "email": "https://twitter.com/bjenkins2000",
     "url": "https://jenkinz.github.io",
     "summary": "I am a highly motivated software engineer with 14 years of professional experience, ranging from web development to safety-critical aerospace applications. I enjoy working in a team environment, am a quick and independent learner, and am passionate about mentoring and helping others.",
     "location": {
@@ -16,6 +16,11 @@
         "network": "GitHub",
         "username": "jenkinz",
         "url": "https://github.com/jenkinz"
+      },
+      {
+        "network": "Twitter",
+        "username": "bjenkins2000",
+        "url": "https://twitter.com/bjenkins2000"
       },
       {
         "network": "LinkedIn",

@@ -52,7 +52,7 @@
 				{{#email}}
 				<div class="col-sm-6">
 					<strong>Email</strong>
-					<div class="email"><a href="{{.}}">Please contact me via LinkedIn</a></div>
+					<div class="email"><a href="{{.}}">Please contact me via Twitter</a></div>
 				</div>
 				{{/email}}
 				{{#phone}}
